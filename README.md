@@ -22,4 +22,7 @@ mostly we talk about.
 # 10th of October 2023
 
 Starting with something simple just beacuse I dont want to run away from the task by fear of problems on Day 2.
-So lets do some Patterns 
+So lets do some Patterns
+
+# 11th of October 2023 (Early morning 12th October)
+
