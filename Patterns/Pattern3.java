@@ -24,9 +24,10 @@ public class Pattern3 {
 
     public static ArrayList<Integer> input() {
         ArrayList<Integer> newList = new ArrayList<Integer>();
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter size of triangle ");
-        newList.add(sc.nextInt());
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter size of triangle ");
+            newList.add(sc.nextInt());
+        }
         return newList;
     }
 

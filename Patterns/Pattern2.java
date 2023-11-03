@@ -56,11 +56,12 @@ public class Pattern2 {
 
     public static ArrayList<Integer> input() {
         ArrayList<Integer> newList = new ArrayList<Integer>();
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter size of triangle ");
-        newList.add(sc.nextInt());
-        System.out.print("\nEnter type of triangle 1 Hollow and 2 Solid");
-        newList.add(sc.nextInt());
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter size of triangle ");
+            newList.add(sc.nextInt());
+            System.out.print("\nEnter type of triangle 1 Hollow and 2 Solid");
+            newList.add(sc.nextInt());
+        }
         return newList;
     }
 }
