@@ -19,10 +19,15 @@ Data structure are predefined by the programming language you are working with
 Algorithms are designed by us and in this algorithm we use are DS as per our need. So Algorithms is what we have more control over and when we talk about DSA
 mostly we talk about.
 
-# 10th of October 2023
+# 10th of October, 2023
 
 Starting with something simple just beacuse I dont want to run away from the task by fear of problems on Day 2.
 So lets do some Patterns
 
-# 11th of October 2023 (Early morning 12th October)
+# 11th of October, 2023 (Early morning 12th October)
 
+# 13th of October, 2023 (DONE)
+
+# 26th of October, 2023
+
+Insertion Sort
