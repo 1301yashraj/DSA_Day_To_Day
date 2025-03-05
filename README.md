@@ -34,46 +34,89 @@ Insertion Sort
 
 # Recurrsion
 
-1. **Basic Recursion (5-7 problems)**
+## 1. **Basic Recursion (5-7 problems)**
 
-   - Printing numbers (1 to N, N to 1) ✅
-   - Printing a name N times ✅
-   - Sum of first N numbers ✅
-   - Factorial of N ✅
-   - Fibonacci series ✅
-   - Reverse an array using recursion ✅
-   - Check if a string is a palindrome using recursion✅
-   - Power function (Calculate a^b recursively) ✅
-   - GCD using recursion ✅
-   - Sum of digits of a number ✅
-   - Binary search using recursion ✅
+- Printing numbers (1 to N, N to 1) ✅
+- Printing a name N times ✅
+- Sum of first N numbers ✅
+- Factorial of N ✅
+- Fibonacci series ✅
+- Reverse an array using recursion ✅
+- Check if a string is a palindrome using recursion✅
+- Power function (Calculate a^b recursively) ✅
+- GCD using recursion ✅
+- Sum of digits of a number ✅
+- Binary search using recursion ✅
 
-2. **Backtracking & Subset Problems (8-10 problems)**
+## 2. **Backtracking & Subset Problems (8-10 problems)**
 
-   - Print all subsequences of an array
-   - Generate all subsets of a string
-   - Print all permutations of a string/array
-   - N-Queens problem
-   - Rat in a Maze
-   - Sudoku Solver
+- Print all subsequences of an array
+- Generate all subsets of a string
+- Print all permutations of a string/array
+- N-Queens problem
+- Rat in a Maze
+- Sudoku Solver
 
-3. **Divide & Conquer (5-7 problems)**
+---
 
-   - Merge Sort
-   - Quick Sort
-   - Binary Search using Recursion
-   - Exponentiation (Power of a number)
+---
 
-4. **Recursion on Data Structures (5-7 problems)**
+### **Level 1: Subsets and Combinations** (Basic Backtracking)
 
-   - Reverse a Linked List
-   - Check if a Linked List is Palindrome
-   - Height of a Binary Tree
-   - Inorder, Preorder, Postorder Traversal
+1. Generate All Subsequences of an Array _(✅ Done)_
+2. Generate All Subsets of an Array (Power Set)
+3. Generate All Permutations of an Array
+4. Generate All Combinations of k elements from n elements
+5. Combination Sum I
+6. Combination Sum II
 
-5. **Dynamic Programming with Recursion (10 problems)**
-   - Fibonacci (Memoization)
-   - Climbing Stairs (Ways to reach N)
-   - Subset Sum Problem
-   - Coin Change Problem
-   - Longest Common Subsequence (LCS)
+---
+
+### **Level 2: Strings and Arrangements** (Intermediate Backtracking)
+
+7. String Permutations (All possible arrangements of a string's characters)
+8. Generate Valid Parentheses (n pairs of `()` in all valid orders)
+9. Word Search (Find a word in a 2D grid, moving in 4 directions)
+10. Palindrome Partitioning (Break a string into palindromic substrings)
+
+---
+
+### **Level 3: Sudoku and Graph-Based Backtracking** (Advanced Backtracking)
+
+11. Solve Sudoku (Fill a 9x9 Sudoku board using constraints)
+12. N-Queens Problem (Place N queens on an NxN board with no attacks)
+13. Rat in a Maze (Find paths in a grid avoiding obstacles)
+14. Word Break (Check if a string can be segmented using a dictionary)
+15. Knight’s Tour (Find a path where a knight visits all chessboard squares exactly once)
+
+---
+
+### **Level 4: Constraint-Based & Hard Backtracking Problems**
+
+16. M-Coloring Problem (Color a graph with M colors so no adjacent nodes have the same color)
+17. Hamiltonian Path and Cycle (Find a path visiting all nodes exactly once in a graph)
+18. Subset Sum Problem (Check if a subset with a given sum exists)
+19. Kth Permutation Sequence (Find the Kth permutation of numbers 1 to N without generating all permutations)
+20. Word Ladder (Transform a word into another by changing one letter at a time, using a dictionary)
+
+## 3. **Divide & Conquer (5-7 problems)**
+
+- Merge Sort
+- Quick Sort
+- Binary Search using Recursion
+- Exponentiation (Power of a number)
+
+## 4. **Recursion on Data Structures (5-7 problems)**
+
+- Reverse a Linked List
+- Check if a Linked List is Palindrome
+- Height of a Binary Tree
+- Inorder, Preorder, Postorder Traversal
+
+## 5. **Dynamic Programming with Recursion (10 problems)**
+
+- Fibonacci (Memoization)
+- Climbing Stairs (Ways to reach N)
+- Subset Sum Problem
+- Coin Change Problem
+- Longest Common Subsequence (LCS)
