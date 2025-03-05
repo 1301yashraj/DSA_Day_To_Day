@@ -44,6 +44,9 @@ Insertion Sort
    - Reverse an array using recursion ✅
    - Check if a string is a palindrome using recursion✅
    - Power function (Calculate a^b recursively) ✅
+   - GCD using recursion ✅
+   - Sum of digits of a number ✅
+   - Binary search using recursion ✅
 
 2. **Backtracking & Subset Problems (8-10 problems)**
 
