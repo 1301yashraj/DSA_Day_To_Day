@@ -41,6 +41,9 @@ Insertion Sort
    - Sum of first N numbers ✅
    - Factorial of N ✅
    - Fibonacci series ✅
+   - Reverse an array using recursion
+   - Check if a string is a palindrome using recursion
+   - Power function (Calculate a^b recursively)
 
 2. **Backtracking & Subset Problems (8-10 problems)**
 
