@@ -12,6 +12,20 @@ public class ALLUniqueKCombinations {
         getKUniqueCombinations(list, k, used, new ArrayList<>(), 0);
     }
 
+    /*
+     * - If a number appears more than once in the array, we should only generate
+     * combinations where its first occurrence is chosen before its later
+     * occurrences.
+     * - If we are using a duplicate number before using its first occurrence, it
+     * means that we are forming a combination that should have already been formed
+     * when we used its first occurrence.
+     * - By enforcing this rule, we avoid duplicate combinations.
+     **
+     * Its like say if you are using the second occurance for the first time you
+     * have already made the desired sequnce using the previous sequnce 1a2 is made
+     * and now you are making 1b2**
+     *
+     */
     private static void getKUniqueCombinations(List<Integer> list, int k, boolean[] used, List<Integer> ans,
             int start) {
         if (ans.size() == k) {

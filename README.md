@@ -52,9 +52,9 @@ Mastering DSA is crucial because it enables us to write code that is not just co
 3. Generate All Permutations of an Array ✅
    easier apporach is to use a spearate consumed boolean array so that we can go on with the loop easily.
    - 3.2 Generate unique permutations ✅
-4. Generate All Combinations of k elements from n elements
+4. Generate All Combinations of k elements from n elements ✅ (AllCombinations.java)
 
-   4.2 ALL Unique Combinations ✅
+   4.2 ALL Unique Combinations ✅ (AllUniqueKCombinatins.java)
 
    - If a number appears more than once in the array, we should only generate combinations where its first occurrence is chosen before its later occurrences.
    - If we are using a duplicate number before using its first occurrence, it means that we are forming a combination that should have already been formed when we used its first occurrence.
@@ -62,8 +62,8 @@ Mastering DSA is crucial because it enables us to write code that is not just co
 
    **Its like say if you are using the second occurance for the first time you have already made the desired sequnce.**
 
-5. Combination Sum I
-6. Combination Sum II
+5. Combination Sum I (TargetSum.java)✅
+6. Combination Sum II (Unique Subsequences with Duplicates Allowed Once) >> UniqueSum.java
 
 ---
 
