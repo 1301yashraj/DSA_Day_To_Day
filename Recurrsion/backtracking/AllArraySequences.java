@@ -3,7 +3,7 @@ package Recurrsion.backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AllArraySeq {
+public class AllArraySequences {
     public static void main(String[] args) {
         int[] ar = { 1, 2, 3 };
         List<Integer> list = new ArrayList<>();
