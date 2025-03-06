@@ -62,8 +62,9 @@ Mastering DSA is crucial because it enables us to write code that is not just co
 
    **Its like say if you are using the second occurance for the first time you have already made the desired sequnce.**
 
-5. Combination Sum I (TargetSum.java)✅
-6. Combination Sum II (Unique Subsequences with Duplicates Allowed Once) >> UniqueSum.java
+5. Combination Sum I (TargetSum.java)>> what we have done is kind of step counting but in this we can
+   using similar elements multiple time we can DO IT **LATER** EASY 💥
+6. Combination Sum II (Unique Subsequences with Duplicates Allowed Once) >> UniqueSum.java ✅
 
 ---
 

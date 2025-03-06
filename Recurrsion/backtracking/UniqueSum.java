@@ -9,6 +9,8 @@ public class UniqueSum {
     /*
      * Just find all the unique K combinations and insert a new base condtion for
      * sum also.
+     * Arr :[1, 1, 1, 2, 2] Target : 3
+     * o/p :[1, 1, 1] , [1, 2]
      */
     public static void main(String[] args) {
         System.out.println("--------------------");
