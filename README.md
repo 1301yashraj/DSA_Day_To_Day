@@ -70,9 +70,10 @@ Mastering DSA is crucial because it enables us to write code that is not just co
 
 ### **Level 2: Strings and Arrangements** (Intermediate Backtracking)
 
-7. String Permutations (All possible arrangements of a string's characters)
-8. Generate Valid Parentheses (n pairs of `()` in all valid orders)
-9. Word Search (Find a word in a 2D grid, moving in 4 directions)
+7. String Permutations (All possible arrangements of a string's characters) ✅
+8. Generate Valid Parentheses (n pairs of `()` in all valid orders) ✅
+   **(Ques 8. Good Question >> Trust the process >> make branches on paper than implement its logic)**
+9. Word Search (Find a word in a 2D grid, moving in 4 directions) ✅
 10. Palindrome Partitioning (Break a string into palindromic substrings)
 
 ---
