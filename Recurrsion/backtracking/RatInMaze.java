@@ -11,6 +11,28 @@ public class RatInMaze {
         };
         boolean[][] visited = new boolean[maze.length][maze[0].length];
         findPath(maze, 0, 0, new StringBuilder(), visited);
+        System.out.println("----------------------");
+
+        int[][] maze2 = {
+                { 1, 1, 0, 1, 1 },
+                { 1, 0, 1, 1, 0 },
+                { 1, 1, 1, 0, 1 },
+                { 0, 1, 0, 1, 1 },
+                { 1, 1, 1, 1, 1 }
+        };
+        boolean[][] visited2 = new boolean[maze2.length][maze2[0].length];
+        findPath(maze2, 0, 0, new StringBuilder(), visited2);
+        System.out.println("----------------------");
+
+        int[][] maze3 = {
+                { 1, 1, 1, 1 },
+                { 0, 0, 0, 1 },
+                { 0, 0, 0, 1 },
+                { 1, 1, 1, 1 }
+        };
+        boolean[][] visited3 = new boolean[maze3.length][maze3[0].length];
+        findPath(maze3, 0, 0, new StringBuilder(), visited3);
+        System.out.println("----------------------");
     }
 
     private static void findPath(int[][] maze, int row, int col, StringBuilder ans, boolean[][] visited) {
