@@ -82,7 +82,7 @@ Mastering DSA is crucial because it enables us to write code that is not just co
 
 11. Solve Sudoku (Fill a 9x9 Sudoku board using constraints)
 12. N-Queens Problem (Place N queens on an NxN board with no attacks)
-13. Rat in a Maze (Find paths in a grid avoiding obstacles)
+13. Rat in a Maze (Find paths in a grid avoiding obstacles) ✅
 14. Word Break (Check if a string can be segmented using a dictionary)
 15. Knight’s Tour (Find a path where a knight visits all chessboard squares exactly once)
 
@@ -112,8 +112,8 @@ Mastering DSA is crucial because it enables us to write code that is not just co
 
 ## 5. **Dynamic Programming with Recursion (10 problems)**
 
-- Fibonacci (Memoization)
-- Climbing Stairs (Ways to reach N)
-- Subset Sum Problem
+- Fibonacci (Memoization) ✅
+- Climbing Stairs (Ways to reach N) ✅
+- Subset Sum Problem ✅ 📌(Hard and confusing)
 - Coin Change Problem
 - Longest Common Subsequence (LCS)
