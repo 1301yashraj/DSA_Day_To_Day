@@ -112,8 +112,64 @@ Mastering DSA is crucial because it enables us to write code that is not just co
 
 ## 5. **Dynamic Programming with Recursion (10 problems)**
 
+Dynamic Programming is an optimization technique used to solve by breaking them into subproblems and storing the results of redundant calculations.
+**Ways to solve a DP problem**
+
+###### Top-Down Approach (Memoization)
+
+Solves the original problem by recursively solving subproblems and storing results.
+
+Steps:
+
+1. Solve the problem recursively.
+2. Store the result of each subproblem.
+3. Use stored results when needed instead of recalculating.
+
+---
+
+###### Bottom-Up Approach (Tabulation)
+
+Solves the smallest subproblems first and builds up the solution iteratively.
+
+Steps:
+
+1. Create an array (dp[]) to store results.
+2. Start from the base case.
+3. Fill the table iteratively instead of using recursion.
+
+---
+
 - Fibonacci (Memoization) ✅
 - Climbing Stairs (Ways to reach N) ✅
 - Subset Sum Problem ✅ 📌(Hard and confusing)
 - Coin Change Problem
 - Longest Common Subsequence (LCS)
+
+###### Types of DP Problems
+
+**A. 1D DP Problems**
+Problems where we optimize a single value.
+
+- Fibonacci
+- Climbing Stairs
+- House Robber
+- Coin Change
+
+**B. 2D DP Problems**
+DP problems that use two variables (index, remaining weight, etc.).
+
+- Knapsack Problem (choosing items with a weight constraint)
+- Longest Common Subsequence (LCS)
+- Matrix Chain Multiplication
+
+**C. DP on Graphs**
+DP can be used in shortest path problems.
+
+- Dijkstra’s Algorithm
+- Bellman-Ford Algorithm
+
+**D. DP on Trees**
+DP can be used for tree-based problems where subtree results are reused.
+
+- Binary Tree Maximum Path Sum
+- Counting Paths in a Tree
