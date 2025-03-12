@@ -150,8 +150,8 @@ Steps:
 **A. 1D DP Problems**
 Problems where we optimize a single value.
 
-- Fibonacci
-- Climbing Stairs
+- Fibonacci ✅
+- Climbing Stairs ✅
 - House Robber
 - Coin Change
 
@@ -232,13 +232,12 @@ Node 0 connects to 1 and 2.
 
 ## **1️. Graph Representation & Traversals (Core Understanding)**
 
-- **Understanding Graphs** – What they are and how they differ from trees
-- **Graph Representation** – Adjacency List vs. Adjacency Matrix
-- **Converting Between Representations** – Edge List → Adjacency List → Matrix
+- **Understanding Graphs** – What they are and how they differ from trees ✅
+- **Graph Representation and Construction** – Adjacency List vs. Adjacency Matrix ✅
+- **Converting Between Representations** – Edge List → Adjacency List → Matrix ✅
 - **Building Graphs from Input** – Edge list format, handling weighted/unweighted, directed/undirected
-- Implement **Adjacency Matrix & List**
-- Convert **Edge List → Adjacency List → Adjacency Matrix**
-- **DFS & BFS Traversals**
+- Implement **Adjacency Matrix & List** ✅
+- **DFS & BFS Traversals** ✅
 - Flood Fill Algorithm
 - **Connected Components (DFS/BFS on an Undirected Graph)**
 - **Graph Input Handling (Reading from Input & Creating a Graph)**
@@ -248,10 +247,8 @@ Node 0 connects to 1 and 2.
 
 **Problems:**
 
-- Construct a graph using **Adjacency List & Adjacency Matrix**
-- Convert an **Edge List into an Adjacency List & Matrix**
-- Read and **process graph input efficiently**
-  **DFS & BFS on a Graph** (Implement and visualize traversal order)
+- Read and **process graph input efficiently**.
+- **DFS & BFS on a Graph** (Implement and visualize traversal order) ✅
 - **Find Connected Components in an Undirected Graph**
 - **Flood Fill Algorithm Variation**
 - **Finding Distances using BFS**

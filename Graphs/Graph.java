@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/* USe useMatrix to differentiate b/w graph implementations,
+ *  true => Matrix Implementation
+ *  false => Adjacency List Implementation
+ *  null => Edge list implementation
+ */
 public class Graph {
     private int[][] matrix; // Adjacency Matrix
     private List<List<Integer>> adjList; // Adjacency List
