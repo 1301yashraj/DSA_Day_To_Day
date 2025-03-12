@@ -1,7 +1,6 @@
 package DP;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -54,7 +53,6 @@ public class SubsetSum {
 
     // Reaching a index with a sum just storing that is it possible to get the
     // result from that index onwards.
-    private static Map<String, Boolean> memo = new HashMap<>();
 
     private static List<Integer> findSubset(int[] arr, int target, int index, int currentSum,
             Map<String, List<Integer>> memo) {

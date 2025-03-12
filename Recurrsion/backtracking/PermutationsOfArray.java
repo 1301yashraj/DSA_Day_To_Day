@@ -24,13 +24,13 @@ public class PermutationsOfArray {
      *
      */
     public static void main(String[] args) {
-        int[] ar = new int[] { 1, 2, 3 };
+        // int[] ar = new int[] { 1, 2, 3 };
         List<Integer> arr = new ArrayList<>(Arrays.asList(1, 2, 3)); // Now it's mutable
         // 1.
-        // getAllPermutations(arr, new ArrayList<Integer>());
+        getAllPermutations(arr, new ArrayList<Integer>());
         boolean[] used = new boolean[arr.size()]; // Track used elements
         // 2. Unique and easier to implement
-        // getAllPermutationsClean(arr, new ArrayList<>(), used);
+        getAllPermutationsClean(arr, new ArrayList<>(), used);
 
         // 3. UniquePermutations
         // >> first sort the array n!/(permutions of repeating charcters)
@@ -92,7 +92,7 @@ public class PermutationsOfArray {
             if (used[i])
                 continue; // Skip already used elements
 
-               //first occurance must be used before using hte second occurance
+            // first occurance must be used before using hte second occurance
             if (i > 0 && used[i - 1] != true && ar.get(i - 1) == ar.get(i))
                 continue;
             used[i] = true; // Mark element as used
