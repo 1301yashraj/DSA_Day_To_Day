@@ -238,22 +238,19 @@ Node 0 connects to 1 and 2.
 - **Building Graphs from Input** – Edge list format, handling weighted/unweighted, directed/undirected
 - Implement **Adjacency Matrix & List** ✅
 - **DFS & BFS Traversals** ✅
-- Flood Fill Algorithm
-- **Connected Components (DFS/BFS on an Undirected Graph)**
+- Flood Fill Algorithm ✅
+- **Connected Components (DFS/BFS on an Undirected Graph)** ✅
 - **Graph Input Handling (Reading from Input & Creating a Graph)**
-- **Depth-First Search (DFS)** – Recursive & Iterative
-- **Breadth-First Search (BFS)** – Level-order traversal
-- **Connected Components** – Counting isolated graph sections
 
 **Problems:**
 
 - Read and **process graph input efficiently**.
 - **DFS & BFS on a Graph** (Implement and visualize traversal order) ✅
-- **Find Connected Components in an Undirected Graph**
+- **Find Connected Components in an Undirected Graph** ✅
 - **Flood Fill Algorithm Variation** ✅
 - **Finding Distances using BFS**
 
-1. Flood Fill  ✅
+1. Flood Fill ✅
 2. Number of Islands
 3. Max Area of Island
 4. Number of Enclaves
