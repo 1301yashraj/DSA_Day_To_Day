@@ -250,10 +250,10 @@ Node 0 connects to 1 and 2.
 - Read and **process graph input efficiently**.
 - **DFS & BFS on a Graph** (Implement and visualize traversal order) ✅
 - **Find Connected Components in an Undirected Graph**
-- **Flood Fill Algorithm Variation**
+- **Flood Fill Algorithm Variation** ✅
 - **Finding Distances using BFS**
 
-1. Flood Fill
+1. Flood Fill  ✅
 2. Number of Islands
 3. Max Area of Island
 4. Number of Enclaves
