@@ -251,8 +251,23 @@ Node 0 connects to 1 and 2.
 - **Finding Distances using BFS**
 
 1. Flood Fill ✅
-2. Number of Islands
-3. Max Area of Island
+2. Number of Islands ✅
+
+```
+These grid-based problems (Number of Islands, Flood Fill) represent implicit graphs where:
+1. Each matrix cell is a graph node
+2. Adjacent cells (4-way/8-way) form implicit edges when both contain '1's
+3. The value '1' indicates node existence (land), not connections between indices
+4. Connections exist only between physically adjacent cells, not between arbitrary positions
+5. Standard graph algorithms (DFS/BFS) apply directly to the grid structure
+6. No explicit graph representation (adjacency list/matrix) is needed because:
+    - Neighborhood relationships are defined by grid position
+    - The matrix itself encodes both nodes and adjacency information
+
+The key insight is that while these problems don't use formal graph data structures, they perfectly embody graph traversal concepts applied to a spatial arrangement of nodes and edges. This implicit graph approach is memory-efficient and leverages the grid's natural structure.
+```
+
+3. Max Area of Island ✅
 4. Number of Enclaves
 5. Surrounded Regions
 6. Number of Closed Islands

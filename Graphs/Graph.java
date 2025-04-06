@@ -108,5 +108,14 @@ class Main {
         g2.addEdge(1, 3);
         g2.addEdge(1, 4);
         g2.printGraph();
+
+        System.out.println("\nSwitching to Edge List\n");
+        Graph g3 = new Graph(5, null); // Adjacency List
+        g3.addEdge(0, 1);
+        g3.addEdge(0, 4);
+        g3.addEdge(1, 2);
+        g3.addEdge(1, 3);
+        g3.addEdge(1, 4);
+        g3.printGraph();
     }
 }

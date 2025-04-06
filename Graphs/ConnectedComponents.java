@@ -13,6 +13,7 @@ public class ConnectedComponents {
         graph.addEdge(0, 4);
         graph.addEdge(2, 3);
         graph.addEdge(2, 5);
+        // graph.addEdge(4, 2); //connecting link
         graph.printGraph();
 
         boolean[] visited = new boolean[6];
