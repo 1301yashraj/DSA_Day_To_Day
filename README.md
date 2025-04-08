@@ -268,9 +268,11 @@ The key insight is that while these problems don't use formal graph data structu
 ```
 
 3. Max Area of Island ✅
-4. Number of Enclaves
-5. Surrounded Regions
-6. Number of Closed Islands
+4. Number of Enclaves ✅
+5. Surrounded Regions ✅
+6. Number of Closed Islands -> added in number of enclaves ✅
+
+Currently for above questions we have used DFS it can also be done using BFS which involves a Queue.
 
 ---
 
