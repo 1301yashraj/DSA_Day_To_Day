@@ -274,11 +274,31 @@ The key insight is that while these problems don't use formal graph data structu
 
 Currently for above questions we have used DFS it can also be done using BFS which involves a Queue.
 
+#### Summary
+
+    I have solved most of the Questions using DFS and recursion.
+    Also got to now types of Graph implemetation (3 types) and that they can be converted to one another and is just a way to store data in a specific connection oriented way and that some things that may not look like exact graph representation
+    but are still graphs all the questions we have done above are of this manner.
+
+    - Patterns Noticed
+       1. Start DFS/BFS only from unvisited nodes.
+       2. When removing edge-connected land, always begin from the boundary.
+       3. Marking cells (grid[i][j] = 0 or 'T') is used to track visited or removed
+          land.
+       4. DFS works great here because recursion handles the implicit stack for
+          traversal.
+
+    - These are graph traversal problems in disguise.
+       1. Grid-based problems = Implicit Graphs
+          → No need for adjacency lists/matrices — the grid is the graph.
+       2. Clear distinction now between explicit graph data structures vs implicit
+          spatial structures.
+
 ---
 
 ## **2️. Graph Connectivity & Cycle Detection**
 
-- Detect Cycle in **Undirected Graph (DFS & Union-Find)**
+- Detect Cycle in **Undirected Graph (DFS & Union-Find)** ✅
 - Detect Cycle in **Directed Graph (DFS & Kahn’s Algorithm)**
 - **Bipartite Graph Check (Graph Coloring BFS/DFS)**
 - **Connected Components using BFS/DFS**
@@ -296,10 +316,31 @@ Currently for above questions we have used DFS it can also be done using BFS whi
 12. Possible Bipartition
 13. Find Eventual Safe States
 
-- **Detect a cycle in an Undirected Graph**
-- **Detect a cycle in a Directed Graph**
 - **Check if a Directed Graph is a DAG**
 - **Find a valid Topological Sort ordering**
+
+#### What I read
+
+---
+
+##### Types of Graph
+
+There are 2 Types of Graphs 1. Directed 2. Undirected
+Than we can have 2 sub types 1. Connected and 2. Disconnected
+If all the nodes of a undirected graph are connected via some node we call it a Connected Graph , if not than we have disjointed sets/ groups.
+If all the nodes are connected in the direction such that we have conncetion U to V and V to U from other nodes or directly we say that is a strongly connected graph
+otherwise if it is connected without any direction than it is weakly connected or again it can be disjointed.
+
+##### Connected components of a Undirected graph and Cycles
+
+So if from any node we can cover all of the nodes of a graph the graph is said to be connected.
+If, during traversal, you visit a node that’s already visited, and it’s not the node you just came from (i.e., not your parent), then there’s a cycle.
+
+So we can have:
+
+1. A connected graph with no cycles → a tree
+2. A connected graph with cycles → a general graph
+3. A disconnected graph with multiple components, some cyclic, some not
 
 ---
 
