@@ -94,4 +94,33 @@ public class LongestSubString {
         return maxLength;
     }
 
+    // leetcode best solution //copy-pasted I dont know this
+    public static int lengthOfLongestSubstring(String s) {
+
+        int[] index = new int[128]; // To store last index + 1 of characters
+        for (int i = 0; i < 128; i++) {
+            index[i] = -1;
+        }
+
+        int maxLen = 0;
+        int start = 0; // Left pointer of the window
+
+        for (int end = 0; end < s.length(); end++) {
+            char current = s.charAt(end);
+            int ascii = (int) current;
+
+            // If character was seen and is inside the current window
+            if (index[ascii] >= start) {
+                start = index[ascii] + 1;
+            }
+
+            index[ascii] = end;
+            int windowLen = end - start + 1;
+            if (windowLen > maxLen) {
+                maxLen = windowLen;
+            }
+        }
+        return maxLen;
+    }
+
 }
