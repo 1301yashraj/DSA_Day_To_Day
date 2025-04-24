@@ -1,21 +1,21 @@
 ## A Random Problem Set for Practice (22 April 2025)
 ---
 
-### 🔁 **1. Two Pointers / Sliding Window**
+### 🔁 **1. Two Pointers / Sliding Window**   ✅
 **Problem:** [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 **Topic:** Hashing + Sliding Window
 **Why:** Classic for understanding dynamic window management and string hashing.
 
 ---
 
-### 🔢 **2. Binary Search**
+### 🔢 **2. Binary Search**   HARD 
 **Problem:** [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 **Topic:** Binary Search on Answer
 **Why:** Hard-level — elegant solution with binary search across two arrays.
 
 ---
 
-### 🧮 **3. Prefix Sum / Hash Map**
+### 🧮 **3. Prefix Sum / Hash Map**    HARD
 **Problem:** [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 **Topic:** Prefix Sum + HashMap
 **Why:** Efficient subarray tracking with frequency counting — widely asked.
