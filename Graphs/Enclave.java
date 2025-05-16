@@ -1,14 +1,15 @@
 package Graphs;
 
 public class Enclave {
+    // Enclaves are parts not touching the boundary of the field map (Matrix)
     public static void main(String[] args) {
         int[][] grid = {
                 { 1, 1, 1, 1, 1, 1, 1 },
                 { 1, 0, 0, 0, 0, 0, 1 },
                 { 1, 0, 1, 1, 1, 0, 1 },
-                { 1, 0, 1, 0, 1, 0, 1 },
                 { 1, 0, 1, 1, 1, 0, 1 },
-                { 1, 0, 0, 0, 0, 0, 1 },
+                { 1, 0, 1, 1, 0, 0, 1 },
+                { 1, 0, 0, 0, 1, 0, 1 },
                 { 1, 1, 1, 1, 1, 1, 1 }
         };
         System.out.println("\nMap intially\n");

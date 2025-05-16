@@ -23,11 +23,11 @@ public class CycleDetection {
         visited[node] = true;
 
         List<Integer> nodes = ls.get(node);
-        for (int neighbor : nodes) {
-            if (!visited[neighbor])
-                return isCyclic(neighbor, node, ls, visited);
+        for (int newnode : nodes) {
+            if (!visited[newnode])
+                return isCyclic(newnode, node, ls, visited);
             else {
-                if (neighbor != parent) {
+                if (newnode != parent) {
                     return true;
                 }
             }
