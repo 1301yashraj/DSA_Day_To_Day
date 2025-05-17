@@ -121,7 +121,7 @@ Currently for above questions we have used DFS it can also be done using BFS whi
 ## **2️. Graph Connectivity & Cycle Detection**
 
 - Detect Cycle in **Undirected Graph (DFS & Union-Find)** ✅
-- Detect Cycle in **Directed Graph (DFS & Kahn’s Algorithm)**
+- Detect Cycle in **Directed Graph (DFS & Kahn’s Algorithm)** [Kahn’s Algorithm](./KAHN.md) ✅
 - **Bipartite Graph Check (Graph Coloring BFS/DFS)**
 - **Connected Components using BFS/DFS**
 - **Redundant Connection (Find extra edge forming a cycle)**
