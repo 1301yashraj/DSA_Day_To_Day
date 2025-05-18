@@ -34,3 +34,11 @@ if at last all nodes are removed it means its a DAG , if not than its not a DAG.
 
 we remove 0 than we remove 1 and now we cant remove any thus we got its not a DAG
 [Kahn's Algorithm](./KahnsAlgorithm.java)
+
+## Bipartite Graph
+
+Bipartiteness is a property of a graph where we can divide the graph in two sets where every edge
+goes accross sets and not within set.
+To acheive or check this we color the nodes red-blue-red-blue alternatively if 2 red or 2 blues are adacent to each other than we can see that its not bipertite, also its possible to not be
+bipertite only when there is a cycle and that to when the cycle is of odd length ie.,
+if a graph has an even-length cycle, it's bipartite(I have checked this by making a graph and alternating colors between its nodes).
