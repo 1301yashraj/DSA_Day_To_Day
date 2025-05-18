@@ -8,11 +8,34 @@
 - Binary Tree vs. N-ary Tree vs. Binary Search Tree (BST)
 - Binary Tree vs Binary Search Tree (BST)
 - Balanced vs Unbalanced Trees
-- Complete, Full, Perfect Binary Trees
-- Tree Representation in Code (Class-based, List-based)
+- Complete, Full, Perfect Binary Trees [Type of Trees](./TreeTypes.md)
+- Tree Representation in Code (Class-based, List-based) 
 - Build Tree from Array/Input (level order / pre-in/post order)
 - Recursive Tree Traversal: Preorder, Inorder, Postorder
 - Level Order Traversal (using Queue)
+
+---
+
+```
+A Tree is a non-linear hierarchical data structure consisting of nodes connected by edges.
+It has a single root node at the top, and every other node has exactly one parent (except the root).
+A leaf node is a node with no children.
+There is exactly one unique path between any two nodes — which means no cycles exist in a tree.
+A common real-world example of a tree structure is the file system on a computer, where folders and subfolders form a hierarchy.
+
+Terminolgy
+Siblings: Nodes that share the same parent.
+Edge: The connection between two nodes (parent → child). A tree with n nodes always has n - 1 edges.
+Depth of a Node: The number of edges from the root to that node. Root has depth 0.
+Height of a Node: The number of edges from that node to its farthest leaf. Height of a leaf node is 0.
+Height of the Tree: Height of the root node (i.e., longest path from root to any leaf).
+Level: Number of edges from the root (like depth, but often starts from 1).Some define root at level 0, some at level 1. Just be consistent.
+Ancestor: Any node on the path from the current node to the root.
+Descendant: Any node that comes under the current node (children, grandchildren, etc.)
+Subtree: Any node along with its descendants forms a subtree.
+
+
+```
 
 ---
 
