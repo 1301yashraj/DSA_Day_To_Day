@@ -19,3 +19,4 @@ Mastering DSA is crucial because it enables us to write code that is not just co
 
 - [Recurrsion](Recurrsion/README.md)
 - [Graph](Graphs/README.md)
+- [Tree](Tree/README.md)
