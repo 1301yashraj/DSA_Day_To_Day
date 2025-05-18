@@ -1,4 +1,4 @@
-# 🌳 **Tree DSA Mastery Index**
+# 🌳 **Tree Index**
 
 ---
 
