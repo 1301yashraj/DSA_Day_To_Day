@@ -4,12 +4,12 @@
 
 ## **1. Tree Basics & Representation (5–6 problems)**
 
-- What is a Tree? Properties, Terminology (node, edge, leaf, height, depth, etc.)
-- Binary Tree vs. N-ary Tree vs. Binary Search Tree (BST)
-- Binary Tree vs Binary Search Tree (BST)
-- Balanced vs Unbalanced Trees
-- Complete, Full, Perfect Binary Trees [Type of Trees](./TreeTypes.md)
-- Tree Representation in Code (Class-based, List-based) 
+- What is a Tree? Properties, Terminology (node, edge, leaf, height, depth, etc.) ✅
+- Binary Tree vs. N-ary Tree vs. Binary Search Tree (BST) ✅
+- Binary Tree vs Binary Search Tree (BST) ✅
+- Balanced vs Unbalanced Trees ✅
+- Complete, Full, Perfect Binary Trees [Type of Trees](./TreeTypes.md) ✅
+- Tree Representation in Code (Class-based, List-based) ✅
 - Build Tree from Array/Input (level order / pre-in/post order)
 - Recursive Tree Traversal: Preorder, Inorder, Postorder
 - Level Order Traversal (using Queue)
