@@ -26,7 +26,8 @@ public class LevelOrderTree {
 
     }
 
-    private static Node makeLevelOrderNode(int i, Integer[] treeList) {
+    // only works when tree is perfect i.e., full and complete
+    public static Node makeLevelOrderNode(int i, Integer[] treeList) {
         if (i >= treeList.length || treeList[i] == null)
             return null;
         Node node = new Node(treeList[i]);
@@ -81,7 +82,8 @@ public class LevelOrderTree {
         node.data = treeList[index++]; // root (assign data here)
         fillPreOrder(node.left, treeList);
         fillPreOrder(node.right, treeList);
-
     }
+    // similarly for post order we will add data at the last
+    // all of these methods will work only when tree is perfect.
 
 }

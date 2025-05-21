@@ -33,6 +33,7 @@
 
 - A binary tree in which all levels are completely filled **except possibly the last level**,
   which is filled from left to right.
+- Always Filled from left to right.
 - Example: A heap data structure (used for priority queues) is a complete binary tree.
 
 ### 6. **Full Binary Tree**
@@ -45,7 +46,7 @@
 
 - A binary tree where **all internal nodes have two children** and **all leaf nodes are at the
   same level**.
-- It’s both full and complete.
+- **It’s both full and complete**.
 - Perfect binary trees have exactly $2^{h+1} - 1$ nodes, where h is height.
 
 ### 8. **N-ary Tree**

@@ -10,9 +10,9 @@
 - Balanced vs Unbalanced Trees ✅
 - Complete, Full, Perfect Binary Trees [Type of Trees](./TreeTypes.md) ✅
 - Tree Representation in Code (Class-based, List-based) ✅
-- Build Tree from Array/Input (level order / pre-in/post order)
-- Recursive Tree Traversal: Preorder, Inorder, Postorder
-- Level Order Traversal (using Queue)
+- Build Tree from Array/Input (level order / pre-in/post order) ✅
+- Recursive Tree Traversal: Preorder, Inorder, Postorder ✅ (instead of inserting print)
+- Level Order Traversal (using Queue) ✅
 
 ---
 
@@ -41,9 +41,9 @@ Subtree: Any node along with its descendants forms a subtree.
 
 ## **2. Recursive Tree Traversals (6–8 problems)**
 
-- Preorder, Inorder, Postorder Traversal (recursive)
-- Level Order Traversal using Queue
-- Zigzag Level Order Traversal
+- Preorder, Inorder, Postorder Traversal (recursive) ✅ (Repeated)
+- Level Order Traversal using Queue ✅ (Repeated)
+- Zigzag Level Order Traversal ✅
 - Boundary Traversal of Binary Tree
 - Vertical Order Traversal
 - Top View / Bottom View / Left View / Right View of Binary Tree
